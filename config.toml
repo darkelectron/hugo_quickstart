@@ -2,3 +2,17 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'darkelectron site'
 theme = 'ananke'
+
+[menus]
+[[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+[[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 20
+[[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 30
