@@ -1,6 +1,7 @@
 +++
 title = 'Trying out Hugo'
 date = 2024-01-10T01:35:25+02:00
+publishdate = 2024-01-10
 draft = false
 +++
 

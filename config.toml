@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://darkelectron.netlify.app'
 languageCode = 'en-us'
 title = 'darkelectron site'
 theme = 'ananke'
