@@ -4,3 +4,9 @@
 [submodule "themes/hello-friend-ng"]
 	path = themes/hello-friend-ng
 	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
+[submodule "themes/gallery"]
+	path = themes/gallery
+	url = https://github.com/nicokaiser/hugo-theme-gallery.git
+[submodule "themes/hugo-shortcode-gallery"]
+	path = themes/hugo-shortcode-gallery
+	url = https://github.com/mfg92/hugo-shortcode-gallery.git
