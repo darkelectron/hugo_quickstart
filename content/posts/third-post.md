@@ -19,5 +19,5 @@ _channel_: https://www.youtube.com/channel/UCVj9dwfXRmwyYmiWnk-qCCQ
 
 Here is an image [image](libreoffice.png). The same image below.
 
-{{< figure src="libreoffice.png" title="LibreOffice Typo" >}}
+{{< figure src="libreoffice.png" caption="LibreOffice Typo" >}}
 
