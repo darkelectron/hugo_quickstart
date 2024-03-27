@@ -1,18 +1,64 @@
 baseURL = 'https://darkelectron.netlify.app'
 languageCode = 'en-us'
 title = 'darkelectron site'
-theme = 'ananke'
+theme = ['hello-friend-ng', 'hugo-shortcode-gallery']
 
 [menus]
 [[menus.main]]
     name = 'Home'
     pageRef = '/'
-    weight = 10
+    weight = 1
 [[menus.main]]
     name = 'Posts'
     pageRef = '/posts'
-    weight = 20
+    weight = 2
 [[menus.main]]
     name = 'About'
     pageRef = '/about'
-    weight = 30
+    weight = 3
+[[menus.main]]
+    name = 'Flutter'
+    pageRef = '/flutter'
+    weight = 4
+
+[[menus.footer]]
+    name = 'Flutter'
+    pageRef = '/flutter'
+    weight = 4
+
+[params]
+  homeSubtitle = "A simple and beautiful blog"
+  enableSharingButtons = true
+  enableThemeToggle = true
+
+[params.author]
+  name = "dark electron"
+
+[params.footer]
+  trademark = 2024
+  rss = true
+  copyright = true
+  author = true
+
+  topText = []
+  bottomText = [
+    "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+    "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+  ]
+
+
+[[params.social]]
+  name = 'github'
+  url = 'https://github.com/darkelectron'
+[[params.social]]
+  name = 'instagram'
+  url = 'https://instagram.com'
+
+[languages]
+  [languages.en]
+    # title = "Hello Friend NG"
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+  [languages.en.params.logo]
+    logoText = "darkelectron"
+    logoHomeLink = "/"
