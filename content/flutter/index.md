@@ -10,6 +10,11 @@ draft = false
 
 {{< gallery match="images/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
 
+- Icon: [Tooth icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/tooth)
+- Login Screen: Stolen from Mitch Koko
+
 ### Todo
 
 ###### coming soon
+
+- Icon: [To do list icons created by Graphics Plazza - Flaticon](https://www.flaticon.com/free-icons/to-do-list)
