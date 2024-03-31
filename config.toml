@@ -30,6 +30,7 @@ theme = ['hello-friend-ng', 'hugo-shortcode-gallery']
   homeSubtitle = "A simple and beautiful blog"
   enableSharingButtons = true
   enableThemeToggle = true
+  enableGitInfo   = false
 
 [params.author]
   name = "dark electron"
