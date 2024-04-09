@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'darkelectron site'
 theme = ['hello-friend-ng', 'hugo-shortcode-gallery']
 
+enableGitInfo   = false
+
 [menus]
 [[menus.main]]
     name = 'Home'
@@ -30,7 +32,6 @@ theme = ['hello-friend-ng', 'hugo-shortcode-gallery']
   homeSubtitle = "A simple and beautiful blog"
   enableSharingButtons = true
   enableThemeToggle = true
-  enableGitInfo   = false
 
 [params.author]
   name = "dark electron"
