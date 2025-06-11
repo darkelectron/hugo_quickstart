@@ -65,9 +65,9 @@
 {{- end }}
 
 <!-- Google Analytics internal template -->
-{{- if .Site.GoogleAnalytics }}
+{{ if site.Config.Services.GoogleAnalytics.ID }}
     {{ template "_internal/google_analytics.html" . }}
-{{- end}}
+{{ end}}
 
 <!-- Plausible.io -->
 {{- if $.Site.Params.plausibleDataDomain }}

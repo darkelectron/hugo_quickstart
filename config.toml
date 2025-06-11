@@ -34,10 +34,10 @@ enableGitInfo   = false
   enableThemeToggle = true
 
 [params.author]
-  name = "dark electron"
+  name = "darkelectron"
 
 [params.footer]
-  trademark = 2024
+  trademark = 2025
   rss = true
   copyright = true
   author = true
